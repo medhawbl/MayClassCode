@@ -14,7 +14,7 @@ public class BaseTest {
 		System.out.println("System.getProperty(user.dir)::"+System.getProperty("user.dir"));
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://healthy.kaiserpermanente.org/");
+		//driver.get("https://healthy.kaiserpermanente.org/");
 	}
 	
 	@AfterClass
