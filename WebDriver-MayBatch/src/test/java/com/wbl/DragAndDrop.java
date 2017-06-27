@@ -123,6 +123,10 @@ public class DragAndDrop extends BaseTest{
 		for(Cookie cooki:cookies){
 			System.out.println(cooki.getName());
 		}
+		System.out.println("before size:"+cookies.size());
+		driver.manage().deleteCookieNamed("NewOne");
+		cookies = driver.manage().getCookies();
+		System.out.println("after size:"+cookies.size());
 		
 	}
 	

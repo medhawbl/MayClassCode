@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18062" started-at="2017-06-26T19:39:29Z" finished-at="2017-06-26T19:39:47Z">
+  <suite name="Default suite" duration-ms="7256" started-at="2017-06-27T18:57:56Z" finished-at="2017-06-27T18:58:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18062" started-at="2017-06-26T19:39:29Z" finished-at="2017-06-26T19:39:47Z">
-      <class name="com.wbl.FileUpload">
-        <test-method status="PASS" signature="fileUploadWithAutoIt()[pri:0, instance:com.wbl.FileUpload@d56d67]" name="fileUploadWithAutoIt" duration-ms="18039" started-at="2017-06-26T12:39:29Z" finished-at="2017-06-26T12:39:47Z">
+    <test name="Default test" duration-ms="7256" started-at="2017-06-27T18:57:56Z" finished-at="2017-06-27T18:58:04Z">
+      <class name="com.wbl.Alerts_BrowserNotifications">
+        <test-method status="PASS" signature="fileUploadWithAutoIt()[pri:0, instance:com.wbl.Alerts_BrowserNotifications@4af044]" name="fileUploadWithAutoIt" duration-ms="7230" started-at="2017-06-27T11:57:56Z" finished-at="2017-06-27T11:58:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fileUploadWithAutoIt -->
-      </class> <!-- com.wbl.FileUpload -->
+      </class> <!-- com.wbl.Alerts_BrowserNotifications -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
