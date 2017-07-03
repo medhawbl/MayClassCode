@@ -1,5 +1,7 @@
 package com.wbl.utils;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,9 +11,12 @@ import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 public class WebDriverUtil {
 
+
+	static Logger log = LogManager.getLogger(WebDriverUtil.class);
 	//Factory Design pattern
 	public static WebDriver getDriver(String browsername){
 		WebDriver driver =null;
+		log.info("In get driver method - browser :"+browsername);
 		try{
 		
 			switch(browsername){
@@ -46,8 +51,8 @@ public class WebDriverUtil {
 			}
 			
 		}catch(Exception e){
-			System.out.println("There is an exception when creting WebDriver object");
-			System.out.println(e.getStackTrace());
+			log.error("There is an exception when creting WebDriver object");
+			log.error(e.getStackTrace());
 		}
 		return driver;		
 	}

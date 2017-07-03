@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18393" started-at="2017-06-28T19:13:36Z" finished-at="2017-06-28T19:13:55Z">
+  <suite name="Default suite" duration-ms="34407" started-at="2017-07-03T19:29:50Z" finished-at="2017-07-03T19:30:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18393" started-at="2017-06-28T19:13:36Z" finished-at="2017-06-28T19:13:55Z">
+    <test name="Default test" duration-ms="34407" started-at="2017-07-03T19:29:50Z" finished-at="2017-07-03T19:30:25Z">
       <class name="com.wbl.HomePageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wbl.HomePageTest@167c1fc]" name="beforeClass" is-config="true" duration-ms="15036" started-at="2017-06-28T12:13:36Z" finished-at="2017-06-28T12:13:51Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="beforeSuite" is-config="true" duration-ms="672" started-at="2017-07-03T12:29:49Z" finished-at="2017-07-03T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="beforeClass" is-config="true" duration-ms="11687" started-at="2017-07-03T12:29:51Z" finished-at="2017-07-03T12:30:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:com.wbl.HomePageTest@167c1fc]" name="searchTest" duration-ms="3339" started-at="2017-06-28T12:13:51Z" finished-at="2017-06-28T12:13:55Z">
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="searchTest" duration-ms="4530" started-at="2017-07-03T12:30:03Z" data-provider="searchData" finished-at="2017-07-03T12:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laptop - Walmart.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="afterClass" is-config="true" duration-ms="1101" started-at="2017-07-03T12:30:07Z" finished-at="2017-07-03T12:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="beforeClass" is-config="true" duration-ms="11236" started-at="2017-07-03T12:30:08Z" finished-at="2017-07-03T12:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="searchTest" duration-ms="4172" started-at="2017-07-03T12:30:19Z" data-provider="searchData" finished-at="2017-07-03T12:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Books - Walmart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wbl.HomePageTest@1275dab]" name="afterClass" is-config="true" duration-ms="991" started-at="2017-07-03T12:30:24Z" finished-at="2017-07-03T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.wbl.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
