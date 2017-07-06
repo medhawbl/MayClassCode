@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="847" started-at="2017-07-06T00:22:43Z" finished-at="2017-07-06T00:22:43Z">
+  <suite name="Default suite" duration-ms="761" started-at="2017-07-06T18:39:49Z" finished-at="2017-07-06T18:39:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="847" started-at="2017-07-06T00:22:43Z" finished-at="2017-07-06T00:22:43Z">
-      <class name="com.wbl.FirstApiTest">
-        <test-method status="PASS" signature="testApi()[pri:0, instance:com.wbl.FirstApiTest@18ad742]" name="testApi" duration-ms="797" started-at="2017-07-05T17:22:43Z" finished-at="2017-07-05T17:22:43Z">
+    <test name="Default test" duration-ms="761" started-at="2017-07-06T18:39:49Z" finished-at="2017-07-06T18:39:50Z">
+      <class name="com.wbl.TwitterPostTest">
+        <test-method status="PASS" signature="apiTest()[pri:0, instance:com.wbl.TwitterPostTest@c87b21]" name="apiTest" duration-ms="739" started-at="2017-07-06T11:39:49Z" finished-at="2017-07-06T11:39:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApi -->
-      </class> <!-- com.wbl.FirstApiTest -->
+        </test-method> <!-- apiTest -->
+      </class> <!-- com.wbl.TwitterPostTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -32,5 +32,24 @@
 			<version>6.10</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160810</version>
+		</dependency>
+
+		<dependency>
+			<groupId>oauth.signpost</groupId>
+			<artifactId>signpost-core</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>oauth.signpost</groupId>
+			<artifactId>signpost-commonshttp4</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+
 	</dependencies>
 </project>
