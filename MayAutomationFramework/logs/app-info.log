@@ -1,24 +1,14 @@
-[INFO ] 2017-07-03 12:17:19.510 [main] ExcelHelper - In excel reader utility
-[INFO ] 2017-07-03 12:17:20.069 [main] ExcelHelper - total rows:2
-[INFO ] 2017-07-03 12:17:20.070 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:17:20.075 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:17:20.165 [main] WebDriverUtil - In get driver method - browser :chrome
-[INFO ] 2017-07-03 12:17:49.325 [main] WebDriverUtil - In get driver method - browser :chrome
-[INFO ] 2017-07-03 12:19:50.781 [main] ExcelHelper - In excel reader utility
-[INFO ] 2017-07-03 12:19:51.321 [main] ExcelHelper - total rows:2
-[INFO ] 2017-07-03 12:19:51.321 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:19:51.327 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:19:51.416 [main] WebDriverUtil - In get driver method - browser :chrome
-[ERROR] 2017-07-03 12:19:51.416 [main] WebDriverUtil - There is an exception when creting WebDriver object
-[ERROR] 2017-07-03 12:19:51.417 [main] WebDriverUtil - [Ljava.lang.StackTraceElement;@153a5dc
-[INFO ] 2017-07-03 12:26:06.538 [main] ExcelHelper - total rows:2
-[INFO ] 2017-07-03 12:26:06.539 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:26:06.545 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:26:06.630 [main] WebDriverUtil - In get driver method - browser :chrome
-[INFO ] 2017-07-03 12:26:51.721 [main] WebDriverUtil - In get driver method - browser :chrome
-[DEBUG] 2017-07-03 12:29:50.655 [main] ExcelHelper - In excel reader utility****************************
-[INFO ] 2017-07-03 12:29:51.217 [main] ExcelHelper - total rows:2
-[INFO ] 2017-07-03 12:29:51.217 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:29:51.225 [main] ExcelHelper - total cols:2
-[INFO ] 2017-07-03 12:29:51.332 [main] WebDriverUtil - In get driver method - browser :chrome
-[INFO ] 2017-07-03 12:30:08.648 [main] WebDriverUtil - In get driver method - browser :chrome
+[ERROR] 2017-07-06 11:59:59.504 [main] HttpBaseApi - Exception in get..
+[ERROR] 2017-07-06 11:59:59.519 [main] HttpBaseApi - java.lang.NullPointerException
+[INFO ] 2017-07-06 12:15:33.595 [main] ExcelHelper - total rows:3
+[INFO ] 2017-07-06 12:15:33.595 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:15:33.610 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:15:33.610 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:16:54.579 [main] ExcelHelper - total rows:3
+[INFO ] 2017-07-06 12:16:54.579 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:16:54.595 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:16:54.596 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:17:48.930 [main] ExcelHelper - total rows:3
+[INFO ] 2017-07-06 12:17:48.931 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:17:48.944 [main] ExcelHelper - total cols:3
+[INFO ] 2017-07-06 12:17:48.945 [main] ExcelHelper - total cols:3

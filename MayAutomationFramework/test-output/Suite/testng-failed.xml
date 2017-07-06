@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.wbl.utils.LoggerListener"/>
+  </listeners>
   <test name="SmokeTest(failed)">
     <classes>
-      <class name="com.wbl.SearchResultsPageTest">
-        <methods>
-          <include name="beforeSuite"/>
-          <include name="beforeTest"/>
-          <include name="clickSearchResultTest"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.wbl.SearchResultsPageTest -->
       <class name="com.wbl.HomePageTest">
         <methods>
-          <include name="sliderImagesTest"/>
-          <include name="searchTest"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="headerNavLinksTest"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.wbl.HomePageTest -->
     </classes>

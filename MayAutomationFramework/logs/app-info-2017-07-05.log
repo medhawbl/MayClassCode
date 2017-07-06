@@ -1,0 +1,13 @@
+[INFO ] 2017-07-05 15:19:44.665 [main] WebDriverUtil - In get driver method - browser :chrome
+[INFO ] 2017-07-05 15:26:33.573 [main] WebDriverUtil - In get driver method - browser :chrome
+[INFO ] 2017-07-05 15:26:47.372 [main] BaseTest - rs test case name after every method:headerNavLinksTest
+[INFO ] 2017-07-05 15:46:54.766 [main] WebDriverUtil - In get driver method - browser :chrome
+[INFO ] 2017-07-05 15:47:06.977 [main] LoggerListener - Test Started....
+[ERROR] 2017-07-05 15:47:07.061 [main] LoggerListener - Test 'headerNavLinksTest' FAILED
+[ERROR] 2017-07-05 15:47:07.062 [main] LoggerListener - Priority of this method is 0
+[INFO ] 2017-07-05 15:47:07.063 [main] BaseTest - rs test case name after every method:headerNavLinksTest
+[INFO ] 2017-07-05 15:47:08.661 [main] WebDriverUtil - In get driver method - browser :chrome
+[INFO ] 2017-07-05 15:47:19.477 [main] LoggerListener - Test Started....
+[INFO ] 2017-07-05 15:47:19.510 [main] LoggerListener - Test 'sliderImagesTest' PASSED
+[INFO ] 2017-07-05 15:47:19.510 [main] LoggerListener - Priority of this method is 0
+[INFO ] 2017-07-05 15:47:19.510 [main] BaseTest - rs test case name after every method:sliderImagesTest

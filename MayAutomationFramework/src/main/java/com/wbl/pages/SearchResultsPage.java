@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.wbl.base.CommonPage;
+import com.wbl.utils.WebDriverWaitUtils;
 
 public class SearchResultsPage extends CommonPage{
 
@@ -30,6 +31,7 @@ public class SearchResultsPage extends CommonPage{
 	}
 
 	public String selectValueFromSortDropDown(String value){
+		WebDriverWaitUtils.explicitWait(driver, 20, sortDropDown);
 		sortDropDown.click();	
 		for(WebElement val : sortdropdownValues){
 			if(val.getText().equals(value)){

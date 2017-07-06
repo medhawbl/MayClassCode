@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.wbl.HomePageTest">
+      <class name="com.wbl.restapi.TwitterPostTest">
         <methods>
+          <include name="apiTest"/>
           <include name="beforeSuite"/>
-          <include name="searchTest" invocation-numbers="0 1"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.wbl.HomePageTest -->
+      </class> <!-- com.wbl.restapi.TwitterPostTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
