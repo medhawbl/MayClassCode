@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features={"src/main/resources/features"},
+features={"src/main/features"},
 glue={"com.wbl.stepdefinitions"},
 dryRun=false)
 public class RunCukesTest {
