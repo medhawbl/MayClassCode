@@ -5,12 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import com.wbl.base.PageObject;
 
-	WebDriver driver;
-	
+public class LoginPage extends PageObject{
+
 	public LoginPage(WebDriver driver){
-		this.driver=driver;
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -23,11 +23,25 @@ public class LoginPage {
 	@FindBy(css=".btn.btn-primary")
 	WebElement submitButton;
 	
+	@FindBy(css="[class*=btn-facebook]")
+	WebElement facebookButton;
+	
+	@FindBy(css="[class*=btn-google]")
+	WebElement googleButton;
+	
 	
 	public String login(String name, String pwd){
 		username.sendKeys(name);
 		password.sendKeys(pwd);
 		submitButton.click();
 		return driver.getTitle();
+	}
+	
+	public void clickFacebookLogin(){
+		facebookButton.click();
+	}
+	
+	public void clickGoogleLogin(){
+		googleButton.click();
 	}
 }

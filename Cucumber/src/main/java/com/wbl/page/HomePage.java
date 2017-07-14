@@ -7,12 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+import com.wbl.base.PageObject;
 
-	WebDriver driver;
-	
+public class HomePage extends PageObject{
+
 	public HomePage(WebDriver driver){
-		this.driver=driver;
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	

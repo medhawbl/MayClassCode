@@ -9,7 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features={"src/main/features"},
 glue={"com.wbl.stepdefinitions"},
-dryRun=false)
+dryRun=false,
+strict=true,
+tags={"@login"},
+plugin = { "progress" , "html:target/Cucumber"})
 public class RunCukesTest {
 
 }
